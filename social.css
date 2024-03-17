@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #dc9494;
+  border-bottom: 1px solid #ddd;
+}
+
+h1 {
+  margin-bottom: 0;
+  background-color:#dc9494;
+}
+
+#platform-selection {
+  display: flex;
+  gap: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+.platform-feed {
+  margin-bottom: 20px;
+  border: 1px solid #f4b1b1;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: beige;
+}
+
+.platform-feed h2 {
+  margin-bottom: 10px;
+}
+
+.platform-feed ul {
+  list-style: none;
+  padding: 0;
+}
+
+.platform-feed li {
+  margin-bottom: 5px;
+}
+
+
